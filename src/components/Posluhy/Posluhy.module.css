@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+.image {
+  width: auto;
+  height: 900px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+.right1 {
+  display: flex;
+  gap: 50px;
+}
+.right2 {
+  display: flex;
+  gap: 50px;
+}
+.block {
+  display: flex;
+  color: #251605;
+  width: 401px;
+  height: 341px;
+  align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+.price{
+  color: blue;
+}

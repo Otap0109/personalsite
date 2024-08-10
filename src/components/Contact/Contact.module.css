@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #251605;
+}
+.h1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input {
+  width: 313px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 0;
+  background: #d7c8b7;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  color: inherit;
+}
+.message {
+  width: 665px;
+  height: 171px;
+  flex-shrink: 0;
+  border: 0;
+  background: #d7c8b7;
+  margin-bottom: 50px;
+  padding: 20px;
+  color: inherit;
+}
+.send {
+  width: 291px;
+  height: 78px;
+  flex-shrink: 0;
+  background: #d7c8b7;
+  border: 0;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  margin-top: 150px;
+  width: 100%;
+  height: 161px;
+  padding: 0px 1619px 0px 61px;
+  align-items: flex-start;
+  gap: 16px;
+  background: #d7c8b7;
+}

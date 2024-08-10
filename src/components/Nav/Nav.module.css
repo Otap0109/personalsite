@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d7c8b7;
+  height: 100px;
+  width: 100%;
+  color: #251605;
+  -webkit-text-stroke-width: 1;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: normal;
+  padding: 50px;
+}
+.name {
+  color: #251605;
+  width: 209px;
+  font-size: 32px;
+}
+.links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+}
+.btn{
+    cursor: pointer;
+    
+}

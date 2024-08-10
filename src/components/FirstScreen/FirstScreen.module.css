@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+  max-width: 900px;
+  max-height: 800px; 
+}
+
+.right{
+  display: flex;
+  justify-content: center;
+}
+
+.h1 {
+  color: #251605;
+  font-family: Inter;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+}
