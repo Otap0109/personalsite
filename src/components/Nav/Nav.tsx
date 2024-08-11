@@ -1,15 +1,23 @@
-import React, { startTransition } from 'react'
-import styles from "./Nav.module.css"
+import styles from "./Nav.module.css";
+import { contentList } from "@/assets/lib/texts";
 
-export default function Nav(){
+export default function Nav() {
   return (
-    <nav className={styles.nav}>
-        <h2 className={styles.name}><a href="/">Лілія Прусік</a></h2>
-        <ul className={styles.links}>
-            <li className={styles.btn}><a href='#posluhy'>ПОСЛУГИ</a></li>
-            <li className={styles.btn}><a href='#contact'>КОНТАКТИ</a></li>
-            <li className={styles.btn}><a href='#posluhy'>ВІДГУКИ</a></li>
-        </ul>
-    </nav>
-  )
+    <div>
+      <nav className={styles.nav}>
+        <h2 className={styles.name}>
+          <a href="/">Лілія Прусік</a>
+        </h2>
+        <div>
+          <ul className={styles.links}>
+            {contentList.map((content) => (
+              <li key={content.key} className={styles.btn}>
+                <a href={`#${content.idname}`}>{content.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
+    </div>
+  );
 }

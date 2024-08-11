@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #d7c8b7;
+  background: #054717;
   height: 100px;
   width: 100%;
-  color: #251605;
+  color: #fff;
   -webkit-text-stroke-width: 1;
   font-family: Inter;
   font-weight: bold;
@@ -13,20 +13,24 @@
   padding: 50px;
 }
 .name {
-  color: #251605;
-  width: 209px;
+  color: #faff00;
   font-size: 32px;
+  flex-shrink: 0;
+  margin-right: 100px;
 }
 .links {
-  width: 50%;
   display: flex;
+  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 40px;
   list-style-type: none;
-  text-align: center;
   font-size: 24px;
 }
-.btn{
-    cursor: pointer;
-    
+
+.btn {
+  cursor: pointer;
+  transition: all .3s;
+}
+.btn:hover{
+  color: #faff00;
 }

@@ -13,7 +13,6 @@ export default function Contact() {
 
       <input type="text" placeholder="Повідомлення" className={styles.message}/>
       <button className={styles.send}>Надіслати</button>
-      <div className={styles.footer}></div>
     </div>
   );
 }

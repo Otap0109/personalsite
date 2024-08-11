@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import FirstScreen from "@/components/FirstScreen/FirstScreen";
 import Posluhy from "@/components/Posluhy/Posluhy";
 import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <FirstScreen/>
         <Posluhy/>
         <Contact/>
+        <Footer/>
     </main>
   );
 }
