@@ -12,7 +12,14 @@ export default function Posluhy() {
           <div className={styles.row} id={content.idname}>
             {index % 2 === 0 ? (
               <>
-                <div className={styles.image}>{content.imageUrl}</div>
+                <div className={styles.imagediv}>
+                  <Image
+                    fill={true}
+                    src={content.imageUrl}
+                    alt=""
+                    className={styles.image}
+                  />
+                </div>
                 <div>
                   <p>{content.description}</p>
                 </div>
@@ -22,7 +29,14 @@ export default function Posluhy() {
                 <div>
                   <p>{content.description}</p>
                 </div>
-                <div className={styles.image}>{content.imageUrl}</div>
+                <div className={styles.imagediv}>
+                  <Image
+                    fill={true}
+                    src={content.imageUrl}
+                    alt=""
+                    className={styles.image}
+                  />
+                </div>
               </>
             )}
           </div>
