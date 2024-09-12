@@ -2,35 +2,45 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #054717;
-  height: 100px;
-  width: 100%;
-  color: #fff;
-  -webkit-text-stroke-width: 1;
-  font-family: Inter;
-  font-weight: bold;
-  line-height: normal;
-  padding: 50px;
+  padding: 1rem;
 }
-.name {
-  color: #faff00;
-  font-size: 32px;
-  flex-shrink: 0;
-  margin-right: 100px;
-}
+
 .links {
   display: flex;
-  width: 100%;
-  flex-direction: row;
-  gap: 40px;
   list-style-type: none;
-  font-size: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .btn {
-  cursor: pointer;
-  transition: all .3s;
+  margin-left: 1rem;
 }
-.btn:hover{
-  color: #faff00;
+
+.burgerMenu {
+  position: relative;
+}
+
+.burgerIcon {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.burgerLinks {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  color: #212121;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
 }
